@@ -123,7 +123,7 @@ async def echo(bot, update):
         ]        
     else:
         command_to_exec = [
-            "youtube-dl",
+            "yt-dlp",
             "--no-warnings",
             "--youtube-skip-dash-manifest",
             "-j",
